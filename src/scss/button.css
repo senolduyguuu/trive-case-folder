@@ -1,0 +1,12 @@
+.open-account-btn {
+  display: flex;
+  justify-content: center;
+}
+.open-account-btn .btn {
+  align-items: center;
+  background-color: #5770EA;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+}/*# sourceMappingURL=button.css.map */

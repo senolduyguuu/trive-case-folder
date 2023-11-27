@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.box-container-inclusive {
+  background-color: #F7F7F7;
+}
+.box-container-inclusive .container .row .col-md-4:nth-child(2) .card {
+  background-color: #5770EA;
+}
+.box-container-inclusive .container .row .col-md-4:nth-child(3) .card {
+  background-color: #0097D6;
+}
+.box-container-inclusive .container .row .col-md-4:nth-child(4) .card {
+  background-color: #17ADA1;
+}
+.box-container-inclusive .container .box-container {
+  background-color: #F7F7F7;
+}
+.box-container-inclusive .container .box-container .box-container-header {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.box-container-inclusive .container .box-container .card {
+  border-radius: 8px;
+  width: 400px;
+  height: 300px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%; /* Kutunun genişliği */
+}
+.box-container-inclusive .container .box-container .card .card-content-icon {
+  max-width: 140px; /* Görselin maksimum genişliği */
+  max-height: 100%; /* Görselin maksimum yüksekliği */
+  position: absolute;
+  top: 10%; /* Kutunun dikey ortasına yerleştirme */
+  left: 90%; /* Kutunun yatay ortasına yerleştirme */
+  transform: translate(-50%, -50%); /* Görseli ortalamak için */
+}
+.box-container-inclusive .container .box-container .card .card-body {
+  padding: 20px;
+  text-align: left;
+}
+.box-container-inclusive .container .box-container .card .card-body h5 {
+  font-size: 36px;
+  word-break: break-all;
+  margin-bottom: 10px;
+}
+.box-container-inclusive .container .box-container .card .card-body p {
+  font-size: 24px;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 480px) {
+  .box-container-inclusive .container .box-container .card .card-content-icon {
+    left: 80%;
+  }
+}
+@media screen and (max-width: 480px), (max-width: 768px) {
+  .box-container-inclusive .container .box-container .card {
+    width: auto;
+  }
+}/*# sourceMappingURL=why-fair-market.css.map */

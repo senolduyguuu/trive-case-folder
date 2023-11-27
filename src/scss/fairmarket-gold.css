@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.image-container-fairmarket {
+  display: flex;
+  justify-content: center; /* Yatayda ortalama */
+  align-items: center; /* Dikeyde ortalama */
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+.image-container-fairmarket .image-wrapper {
+  flex: 1 1 45%;
+  max-width: 45%;
+  text-align: center; /* Görselleri ortalamak için */
+  margin: 5px; /* İsteğe bağlı: Görseller arasındaki boşluk */
+}
+.image-container-fairmarket .image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Görselleri ortalamak için */
+}
+.image-container-fairmarket .space {
+  flex: 0 0 5%;
+  height: 0; /* Boşluğun yüksekliğini sıfırla */
+}
+@media screen and (max-width: 768px) {
+  .image-container-fairmarket .space {
+    flex-basis: 3%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .image-container-fairmarket .space {
+    flex-basis: 8%;
+  }
+  .image-container-fairmarket .image-wrapper {
+    max-width: 100%;
+    flex: 1 1 35%;
+  }
+}/*# sourceMappingURL=fairmarket-gold.css.map */

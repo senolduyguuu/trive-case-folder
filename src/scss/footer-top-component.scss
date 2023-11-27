@@ -1,0 +1,65 @@
+$bodycolor:#F7F7F7;
+$cardcolor:#234A90;
+$textcolor:#FFFFFF;
+
+.footer-top-inclusive{
+	background-color: $bodycolor;
+	.footer-top-container {
+		display: flex;
+		justify-content: space-between;
+		background-color: $bodycolor; 
+	}
+	
+	.footer-top-card {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 20px;
+		background-color: $cardcolor;
+		padding: 20px;
+		height: 470px;
+	
+		color: $textcolor;
+		border-radius: 8px;
+	}
+
+	.footer-top-body {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.col-md-4:nth-child(3) .footer-top-body {
+		margin-bottom: 40px;
+	}
+	.footer-top-title{
+		font-size: 36px;
+
+	}
+	.footer-top-title,
+	.footer-top-text {
+		font-size: 24px;
+		@media screen and (min-width: 768px) {
+			font-size: 20px;
+		}
+		text-align: left;
+		margin-bottom: 0; /* Varsayılan margin'leri sıfırla */
+	}
+	.footer-top-icon{
+			max-width: 78px;
+			display: flex;
+			justify-content: right;
+			left: 15em;
+			position: relative;
+			top: 50px;
+			// @media screen and (min-width: 992px) {
+			// 	left: 10em;
+			// }
+			// @media screen and (max-width: 11px) {
+			// 	left: 6em;
+			// 	max-width: 58px;
+			// 	background-color: red;
+			// }
+		}
+		
+}

@@ -1,0 +1,43 @@
+.image-container-fairmarket {
+  display: flex;
+  justify-content: center; /* Yatayda ortalama */
+  align-items: center; /* Dikeyde ortalama */
+  flex-wrap: wrap;
+  margin-top: 45px;
+  .image-wrapper {
+    flex: 1 1 45%;
+    max-width: 45%;
+    text-align: center; /* Görselleri ortalamak için */
+    margin: 5px; /* İsteğe bağlı: Görseller arasındaki boşluk */
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto; /* Görselleri ortalamak için */
+    }
+  }
+
+  .space {
+    flex: 0 0 5%;
+    height: 0; /* Boşluğun yüksekliğini sıfırla */
+  }
+
+  // Ekran genişliklerine göre boşluk boyutunu ayarla
+  @media screen and (max-width: 768px) {
+    .space {
+      flex-basis: 3%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .space {
+      flex-basis: 8%;
+    }
+
+    .image-wrapper {
+      max-width: 100%;
+			flex: 1 1 35%;
+    }
+  }
+}

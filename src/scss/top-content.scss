@@ -1,0 +1,79 @@
+
+$toptextheadercolor:#2A2B23;
+
+.top-image-text-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .top-image-wrapper {
+   
+    max-width: 45%;
+    position: relative;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .top-text-header{
+	 color: $toptextheadercolor;
+	 font-size: 34px;
+	 @media screen and (min-width: 576px) {
+		font-size: 30px !important;
+	}
+   }
+  .top-text-wrapper {
+    flex: 1;
+    text-align: center; /* Metni ortalama */
+  }
+.top-text{
+	font-size: 34px;
+	color: $toptextheadercolor;
+	margin-top: 35px;
+	@media screen and (min-width: 576px) {
+		font-size: 25px !important;
+	}
+}
+
+}
+@media screen and (max-width: 480px),(max-width: 1008px) {
+	.top-image-text-container{
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: space-between;
+		display: flex;
+		.top-image-wrapper {
+			max-width: 45%;
+			position: relative;
+	
+			img {
+	      width: 60%;
+				height: auto;
+				display: block;
+			}
+		}
+		.top-text-header{
+      font-size: 18px;
+			}
+		.top-text{
+		 font-size: 18px;
+		 }
+	}
+
+	.top-image-left{
+		position: relative;
+		right: 50%;
+	}
+	.top-image-right{
+		position: relative;
+		left: 90%;
+	}
+	.top-text-wrapper {
+    margin-top: 40px;
+  }
+}
+
+

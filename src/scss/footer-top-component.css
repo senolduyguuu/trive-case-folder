@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.footer-top-inclusive {
+  background-color: #F7F7F7;
+}
+.footer-top-inclusive .footer-top-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F7F7F7;
+}
+.footer-top-inclusive .footer-top-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-color: #234A90;
+  padding: 20px;
+  height: 470px;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+.footer-top-inclusive .footer-top-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-top-inclusive .col-md-4:nth-child(3) .footer-top-body {
+  margin-bottom: 40px;
+}
+.footer-top-inclusive .footer-top-title {
+  font-size: 36px;
+}
+.footer-top-inclusive .footer-top-title,
+.footer-top-inclusive .footer-top-text {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 0; /* Varsayılan margin'leri sıfırla */
+}
+@media screen and (min-width: 768px) {
+  .footer-top-inclusive .footer-top-title,
+  .footer-top-inclusive .footer-top-text {
+    font-size: 20px;
+  }
+}
+.footer-top-inclusive .footer-top-icon {
+  max-width: 78px;
+  display: flex;
+  justify-content: right;
+  left: 15em;
+  position: relative;
+  top: 50px;
+}/*# sourceMappingURL=footer-top-component.css.map */

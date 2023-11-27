@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.list-container {
+  width: 575px;
+  border: 1px solid #DADDDE;
+  border-radius: 8px; /* Köşe yuvarlaklığı */
+}
+.list-container .list-container-header {
+  display: flex;
+}
+.list-container .list-container-text {
+  padding: 10px;
+}/*# sourceMappingURL=list-component.css.map */

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.form-component {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #DADDDE; /* Çerçeve rengi ve kalınlığı */
+  border-radius: 8px; /* Köşe yuvarlaklığı */
+  /* Modal stilleri */
+}
+.form-component .form-component-header {
+  text-align: center;
+  padding: 20px;
+  color: #5770EA;
+  font-size: 35px;
+}
+.form-component form {
+  display: grid;
+  gap: 15px;
+}
+.form-component form .mb-3 {
+  position: relative;
+}
+.form-component form .mb-3 input[type=text],
+.form-component form .mb-3 input[type=email],
+.form-component form .mb-3 input[type=tel],
+.form-component form .mb-3 input[type=password] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.form-component form .mb-3 input[type=text]:focus,
+.form-component form .mb-3 input[type=email]:focus,
+.form-component form .mb-3 input[type=tel]:focus,
+.form-component form .mb-3 input[type=password]:focus {
+  border-color: #007bff; /* Odaklandığında çerçeve rengi */
+}
+.form-component form .mb-3 small.text-danger {
+  position: absolute;
+  bottom: -20px; /* Hata metni altına yerleştirme */
+  left: 0;
+  font-size: 12px;
+  color: #dc3545; /* Hata mesajı rengi */
+}
+.form-component form button.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #5770EA;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.form-component form button.btn:hover {
+  background-color: #5770EA; /* Hover rengi */
+}
+.form-component .modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.form-component .modal .modal-dialog {
+  max-width: 400px;
+}/*# sourceMappingURL=form-validation.css.map */

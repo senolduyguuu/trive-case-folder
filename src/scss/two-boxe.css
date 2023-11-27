@@ -1,0 +1,133 @@
+@charset "UTF-8";
+.two-boxe {
+  background-color: #F7F7F7;
+}
+.two-boxe .two-boxe-header {
+  text-align: center;
+  padding: 40px;
+}
+@media screen and (max-width: 430px) {
+  .two-boxe .two-boxe-header {
+    padding: 20px;
+  }
+}
+.two-boxe .box {
+  position: relative;
+  background-color: #FFDD5C;
+  height: 500px;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  /* Diğer stiller */
+}
+@media screen and (min-width: 768px) {
+  .two-boxe .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.two-boxe .box .box-content-left-text {
+  position: absolute;
+  left: 13px;
+  bottom: -53px;
+  font-size: 80px; /* Küçük ekranlar için font boyutu */
+  width: 100%; /* Kutu genişliği boyunca uzat */
+  text-align: right; /* Metni sağa hizala */
+  padding: 10px; /* Kenar boşluğu ekleyebilirsiniz */
+  color: white;
+  opacity: 0.5;
+}
+@media screen and (min-width: 576px) {
+  .two-boxe .box .box-content-left-text {
+    font-size: 100px; /* Küçük tabletler ve üzeri için font boyutu */
+    left: 15px;
+    bottom: -60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .two-boxe .box .box-content-left-text {
+    font-size: 115px; /* Tabletler ve üzeri için font boyutu */
+    left: 15px;
+    bottom: -64px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .two-boxe .box .box-content-left-text {
+    font-size: 130px; /* Küçük dizüstü bilgisayarlar ve üzeri için font boyutu */
+    left: 15px;
+    bottom: -70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .two-boxe .box .box-content-left-text {
+    font-size: 200px; /* Büyük dizüstü bilgisayarlar ve üzeri için font boyutu */
+    left: 18px;
+    bottom: -93px;
+  }
+}
+.two-boxe .box .box-content-right-text {
+  position: absolute;
+  left: -18px;
+  bottom: -51px;
+  font-size: 80px; /* Küçük ekranlar için font boyutu */
+  width: 100%; /* Kutu genişliği boyunca uzat */
+  text-align: left; /* Metni sağa hizala */
+  padding: 10px; /* Kenar boşluğu ekleyebilirsiniz */
+  transform-origin: bottom right; /* Alt sağ köşeden büyüt */
+  color: white;
+  opacity: 0.5;
+}
+@media screen and (min-width: 576px) {
+  .two-boxe .box .box-content-right-text {
+    font-size: 80px; /* Küçük tabletler ve üzeri için font boyutu */
+    left: -16px;
+    bottom: -52px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .two-boxe .box .box-content-right-text {
+    font-size: 115px; /* Tabletler ve üzeri için font boyutu */
+    transform: none; /* Önceki büyütme transformunu kaldır */
+    left: -20px;
+    bottom: -64px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .two-boxe .box .box-content-right-text {
+    left: -22px;
+    bottom: -70px;
+    font-size: 130px; /* Küçük dizüstü bilgisayarlar ve üzeri için font boyutu */
+  }
+}
+@media screen and (min-width: 1200px) {
+  .two-boxe .box .box-content-right-text {
+    left: -31px;
+    font-size: 200px;
+    bottom: -93px;
+  }
+}
+.two-boxe .box-img {
+  width: 350px;
+  bottom: 10%;
+  right: 34%;
+  position: relative;
+}
+@media only screen and (max-width: 992px) {
+  .two-boxe .box-img {
+    width: 250px;
+    right: 54%;
+    bottom: 5%;
+  }
+}
+.two-boxe .box-img-two {
+  bottom: 50%;
+  left: 70%;
+  position: relative;
+  width: 260px;
+}
+@media only screen and (max-width: 992px) {
+  .two-boxe .box-img-two {
+    width: 200px;
+    bottom: 20%;
+  }
+}/*# sourceMappingURL=two-boxe.css.map */

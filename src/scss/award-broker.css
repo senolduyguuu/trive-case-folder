@@ -1,0 +1,11 @@
+.award-broker-content .award-broke-text {
+  text-align: center;
+}
+.award-broker-content .award-broker-img {
+  display: flex;
+  justify-content: center;
+}
+.award-broker-content .award-broker-img img {
+  width: 417px;
+  padding: 20px;
+}/*# sourceMappingURL=award-broker.css.map */

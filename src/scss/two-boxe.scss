@@ -1,0 +1,187 @@
+
+$bodycolor:#F7F7F7;
+$twoboxbackground:#FFDD5C;
+$twoboxtextcolor:#2A2B23;
+.two-boxe{
+	background-color: $bodycolor;
+	.two-boxe-header{
+		text-align: center;
+		padding: 40px;
+		@media screen and (max-width: 430px) {
+			padding: 20px;
+
+		}
+	}
+	.box {
+		position: relative;
+		background-color: $twoboxbackground;
+		height: 500px;
+		padding: 40px;
+		margin-bottom: 20px;
+		border-radius: 8px;
+		/* Diğer stiller */
+	
+		@media screen and (min-width: 768px) {
+			display: flex;
+			flex-direction: column;
+		}
+		.box-content-left-text {
+			position: absolute;
+			left: 13px;
+			bottom: -53px;
+			font-size: 80px; /* Küçük ekranlar için font boyutu */
+			width: 100%; /* Kutu genişliği boyunca uzat */
+			text-align: right; /* Metni sağa hizala */
+			padding: 10px; /* Kenar boşluğu ekleyebilirsiniz */
+			color: white;
+			opacity: 0.5;
+		
+			@media screen and (min-width: 576px) {
+				font-size: 100px; /* Küçük tabletler ve üzeri için font boyutu */
+				left: 15px;
+				bottom: -60px;
+			}
+		
+			@media screen and (min-width: 768px) {
+				font-size: 115px; /* Tabletler ve üzeri için font boyutu */
+				left: 15px;
+				bottom: -64px;
+			}
+		
+			@media screen and (min-width: 992px) {
+				font-size: 130px; /* Küçük dizüstü bilgisayarlar ve üzeri için font boyutu */
+				left: 15px;
+				bottom: -70px;
+			}
+			
+			@media screen and (min-width: 1200px) {
+				font-size: 200px; /* Büyük dizüstü bilgisayarlar ve üzeri için font boyutu */
+				left: 18px;
+				bottom: -93px;
+			}
+	
+		}
+
+		.box-content-right-text {
+			position: absolute;
+			left: -18px;
+			bottom: -51px;
+			font-size: 80px; /* Küçük ekranlar için font boyutu */
+			width: 100%; /* Kutu genişliği boyunca uzat */
+			text-align: left; /* Metni sağa hizala */
+			padding: 10px; /* Kenar boşluğu ekleyebilirsiniz */
+			transform-origin: bottom right; /* Alt sağ köşeden büyüt */
+			color: white;
+			opacity: 0.5;
+		
+			@media screen and (min-width: 576px) {
+				font-size: 80px; /* Küçük tabletler ve üzeri için font boyutu */
+				left: -16px;
+				bottom: -52px;
+			}
+		
+			@media screen and (min-width: 768px) {
+				font-size: 115px; /* Tabletler ve üzeri için font boyutu */
+				transform: none; /* Önceki büyütme transformunu kaldır */
+				left: -20px;
+				bottom: -64px;
+			}
+		
+			@media screen and (min-width: 992px) {
+				left: -22px;
+				bottom: -70px;
+				font-size: 130px; /* Küçük dizüstü bilgisayarlar ve üzeri için font boyutu */
+			}
+		
+			@media screen and (min-width: 1200px) {
+				left: -31px;
+				font-size: 200px;
+				bottom: -93px;
+				
+			}
+		}
+	}
+	.box-img{
+		width: 350px;
+		bottom: 10%;
+    right: 34%;
+    position: relative;
+		@media only screen and (max-width: 992px) {
+			width: 250px;
+			right: 54%;
+			bottom: 5%;
+		}
+		
+
+	}
+	.box-img-two{
+  bottom: 50%;
+    left: 70%;
+    position: relative;
+    width: 260px;
+		@media only screen and (max-width: 992px) {
+		width: 200px;
+		bottom: 20%;
+		}
+	}
+//  .box-img{
+// 	bottom: 50px;
+// 	width: 400px;
+// 	position: relative;
+// 	right: 33%;
+// // 	@media screen and (min-width: 992px) {
+// // 		right: 45%;
+// // 	}
+// // 	@media screen and (min-width: 768px) {
+// // 		width: 300px;
+// // 		right: 30%;
+// // 		bottom: 43px;
+// // 	}
+// // 	@media screen and (min-width: 768px) {
+// // 		right: 54%;
+// // 	}
+// // 	// @media screen and (min-width: 576px) {
+// // 	// 	width: 300px;
+// // 	// 	bottom: 33px;
+// // 	// 	right: 65%;
+// // 	// }
+// // 	@media screen and (max-width: 500px) {
+// // 		width: 300px;
+// // 		right: 25%;
+// // 		bottom: 32.50px;
+// // 	}
+// // 	@media screen and (max-width: 430px) {
+// // 		width: 240px;
+// // 		right: 32%;
+// // 		bottom: 42px;
+	
+// // 	}
+// // }
+//  .box-img-two{
+// 	width: 280px;
+// 	position: relative;
+// 	left: 67%;
+// 	bottom: 40% !important;
+// // 	@media screen and (min-width: 768px) {
+// // 		width: 180px;
+// // 		bottom: 17%;
+// // 	}
+// // 	@media screen and (min-width: 576px) {
+// // 		width: 20px;
+// // 		bottom: 33px;
+// // 		right: 25%;
+// // 	}
+// // 	@media screen and (max-width: 530px) {
+// // 		width: 250px;
+// // 		bottom: 33px;
+// // 		left: 47%;
+	
+// // 	}
+// // 	@media screen and (max-width: 430px) {
+// // 		top: 40px;
+// //     width: 190px;
+	
+//  	}
+//  }
+  }
+

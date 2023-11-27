@@ -1,0 +1,77 @@
+$bodycolor:#F7F7F7;
+$firstbox:#5770EA;
+$secondbox:#0097D6;
+$thirdbox:#17ADA1;
+
+
+.box-container-inclusive {
+	background-color: $bodycolor;
+  .container {
+    .row {
+		  .col-md-4:nth-child(2) .card {
+        background-color: $firstbox; 
+      }
+			.col-md-4:nth-child(3) .card {
+        background-color: $secondbox; 
+      }
+			.col-md-4:nth-child(4) .card {
+        background-color: $thirdbox; 
+      }
+    }
+		.box-container {
+			background-color: $bodycolor;
+			.box-container-header{
+				text-align: center;
+				margin-top: 60px;
+				padding-bottom: 60px;
+			}
+		
+			.card {
+				border-radius: 8px;
+				width: 400px;
+				height: 300px;
+				color: #FFFFFF;
+				margin-bottom: 20px;
+				position: relative;
+				width: 100%; /* Kutunun genişliği */
+		  .card-content-icon{
+				max-width: 140px; /* Görselin maksimum genişliği */
+				max-height: 100%; /* Görselin maksimum yüksekliği */
+				position: absolute;
+				top: 10%; /* Kutunun dikey ortasına yerleştirme */
+				left: 90%; /* Kutunun yatay ortasına yerleştirme */
+				transform: translate(-50%, -50%); /* Görseli ortalamak için */
+		 }
+				.card-body {
+					padding: 20px;
+					text-align: left;
+					h5 {
+						
+						font-size: 36px;
+						word-break: break-all;
+						margin-bottom: 10px;
+					}
+					p {
+						font-size: 24px;
+						color: #FFFFFF;
+					}
+				}
+				
+				@media screen and (max-width: 480px) {
+					.card-content-icon{
+						left: 80%;
+					}
+				}
+			}
+			@media screen and (max-width: 480px),(max-width: 768px) {
+				.card{
+					width: auto;
+				}
+						}
+						
+			
+		}
+		
+  }
+}
+

@@ -1,0 +1,13 @@
+$bordercolor:#DADDDE;
+
+.list-container {
+ width: 575px;
+  border: 1px solid $bordercolor;
+  border-radius: 8px; /* Köşe yuvarlaklığı */
+	.list-container-header{
+		display: flex;
+	}
+	.list-container-text{
+		padding: 10px;
+	}
+}

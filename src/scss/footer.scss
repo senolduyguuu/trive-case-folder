@@ -1,0 +1,12 @@
+$footertextcolar:#C8CBCC;
+$footerbottomcolar:#2A2B23;
+
+.footer-bottom{
+	background-color: $footerbottomcolar;
+	padding: 4rem;
+	.footer-bottom-text{
+		color: $footertextcolar;
+		font-size: 12px;
+		text-align: left;
+	}
+}
