@@ -27,7 +27,8 @@ const App = () => {
   };
 
   return (
-    <div className="app-container">
+		 <>
+		     <div className="app-container">
 			<Topheader></Topheader>
 			<FairmarktGold></FairmarktGold>
 			<Topcontent></Topcontent>
@@ -39,14 +40,19 @@ const App = () => {
     <ListComponent dataList={listData} onDelete={handleDelete} />
   </div>
 </div>
-<Whyfairmarkets></Whyfairmarkets>
+
+    </div>
+	<div className='app-content'>
+		<Whyfairmarkets></Whyfairmarkets>
 <TwoBoxes></TwoBoxes>
 <Footertopcomponent></Footertopcomponent>
 <Openaccountbutton></Openaccountbutton>
 <Awardbroker></Awardbroker>
 <Openaccountbutton></Openaccountbutton>
-<Footer></Footer>
-    </div>
+	</div>	
+	<Footer></Footer>
+		 </> 
+
   );
 };
 
