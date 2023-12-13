@@ -32,7 +32,11 @@ const App = () => {
 			<Topheader></Topheader>
 			<FairmarktGold></FairmarktGold>
 			<Topcontent></Topcontent>
-			<div className='container-wrapper'>
+	
+
+    </div>
+	<div className='app-content'>
+	<div className='container-wrapper'>
   <div className='form-container'>
     <FormComponent onFormSubmit={handleFormSubmit} />
   </div>
@@ -40,16 +44,14 @@ const App = () => {
     <ListComponent dataList={listData} onDelete={handleDelete} />
   </div>
 </div>
-
-    </div>
-	<div className='app-content'>
-		<Whyfairmarkets></Whyfairmarkets>
+ <Whyfairmarkets></Whyfairmarkets>
 <TwoBoxes></TwoBoxes>
 <Footertopcomponent></Footertopcomponent>
 <Openaccountbutton></Openaccountbutton>
-<Awardbroker></Awardbroker>
-<Openaccountbutton></Openaccountbutton>
+
 	</div>	
+	<Awardbroker></Awardbroker>
+<Openaccountbutton></Openaccountbutton>
 	<Footer></Footer>
 		 </> 
 

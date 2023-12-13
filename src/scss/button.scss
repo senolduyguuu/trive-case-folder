@@ -1,12 +1,12 @@
-
 $btnbackgroundcolar:#5770EA;
 $btncolor:#FFFFFF;
 
 .open-account-btn{
 	display: flex;
 	justify-content: center;
+	margin: 50px 0;
 	.btn{
-		align-items: center;
+	align-items: center;
   background-color: $btnbackgroundcolar;
 	color: $btncolor ;
 	padding: 12px 20px;

@@ -5,16 +5,17 @@ import fmmodultwo from  "../img-folder/trive-img/FM-ODUL-1.png"
 
 const Awardbroker = () => {
   return (
-<div className='award-broker'>
-<div className="background-text"></div>
-<div className='award-broker-content'>
-<h2 className='award-broke-text'>Award Winning Broker</h2>
-<div className='award-broker-img'>
-<img alt='fmmodulon' src={fmmodulone}></img>
-<img alt='fmmodultwo' src={fmmodultwo}></img>
-</div>
-</div>
-</div> 
+<div className="container award-winning-container">
+      <div className="row">
+				<h2 className='award-winning-header'>Award Winning Broker</h2>
+        <div className="col-md-6 award-winning-image-container">
+          <img src={fmmodulone} alt="Görsel 1" />
+        </div>
+        <div className="col-md-6 award-winning-image-container">
+          <img src={fmmodultwo} alt="Görsel 2" />
+        </div>
+      </div>
+    </div>
   );
 };
 

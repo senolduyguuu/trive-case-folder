@@ -14,7 +14,8 @@ const Whyfairmarkets = () => {
           <div className="card">
 					<img className="card-content-icon" src={Paratwo} alt={Paratwo}></img>
             <div className="card-body">
-              <h5 className="card-title">Lowest {<br />}costs</h5>
+							<span><h5 className="card-title">Lowest</h5></span>
+              <span><h5 className="card-title">costs</h5></span>
               <p className="card-text">Our transparent and{<br />} commissions{<br />} minimize costs to{<br />} maximize returns</p>
             </div>
           </div>

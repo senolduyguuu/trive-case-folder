@@ -9,6 +9,7 @@ $bordercolor:#DADDDE;
   padding: 20px;
   border: 1px solid $bordercolor; /* Çerçeve rengi ve kalınlığı */
   border-radius: 8px; /* Köşe yuvarlaklığı */
+	background-color: white;
 .form-component-header{
 	text-align: center;
 	padding: 20px;
@@ -74,4 +75,19 @@ $bordercolor:#DADDDE;
       max-width: 400px;
     }
   }
+}
+.list-form-line{
+  border-top: 1px solid #dee2e6;
+  margin-top: 40px; /* İstenilen boşluk miktarı */
+  width: 100%; /* Divin tam genişlikte olmasını sağlar */
+}
+
+.modal-content{
+	@media only screen and (max-width: 576px) {
+		width: 90%;
+	}
+}
+.form-control:focus {
+	border-color: #EA5757 !important;
+  box-shadow: 0 0 5px #EA5757  !important;
 }

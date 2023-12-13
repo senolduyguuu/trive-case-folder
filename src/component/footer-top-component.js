@@ -12,7 +12,8 @@ const Footertop = () => {
           <div className="footer-top-card">
 					<img className="footer-top-icon" src={Rectangleimg} alt={Rectangleimg}></img>
             <div className="footer-top-body">
-              <h5 className="footer-top-title">MT4/MT5 {<br/>}Booster</h5>
+							<span><h5 className="footer-top-title">MT4/MT5</h5></span>
+              <span><h5 className="footer-top-title">Booster</h5></span>
               <p className="footer-top-text">Boost your platform  {<br/>}  with add-ons designed  {<br/>}  to enhance your  {<br/>}  trading experience!</p>
             </div>
           </div>
@@ -21,7 +22,8 @@ const Footertop = () => {
           <div className="footer-top-card">
 					<img className="footer-top-icon" src={Rectangleimgone} alt={Rectangleimgone}></img>
             <div className="footer-top-body">
-              <h5 className="footer-top-title">VPS - Virtual  {<br/>}  Private Server</h5>
+						<span><h5 className="footer-top-title">VPS - Virtual </h5></span>
+						<span><h5 className="footer-top-title">Private Server </h5></span>
               <p className="footer-top-text">Secure & private {<br/>}  platform to access your {<br/>}  trades remotely; no {<br/>}  downtime</p>
             </div>
           </div>
@@ -30,7 +32,8 @@ const Footertop = () => {
           <div className="footer-top-card">
 					<img className="footer-top-icon" src={Rectangleimgtwo} alt={Rectangleimgtwo}></img>
             <div className="footer-top-body">
-              <h5 className="footer-top-title">Trading  {<br/>}Central</h5>
+						<span><h5 className="footer-top-title">Trading </h5></span>
+              <span><h5 className="footer-top-title">Central</h5></span>
               <p className="footer-top-text">Unmatched research {<br/>} and analysis services  {<br/>}  for FairMarkets’ traders</p>
             </div>
           </div>

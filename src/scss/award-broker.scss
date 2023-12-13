@@ -1,32 +1,25 @@
-// $transparenttext:#F4F4EA;
+// TwoImages.scss dosyası
 
-// .background-text {
-//   position: relative;
-//   color: transparent; /* Metni görünmez yapmak için */
+.award-winning-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 
-// }
-
-// .background-text::before {
-//   content: "Award Award Award Award "; /* Eklemek istediğimiz metin */
-//   position: absolute;
-//   top: 0;
-//   left: 120px;
-// 	font-size: 220px;
-// 	padding: 50px;
-//   z-index: -1; /* Arkada olmasını sağlar */
-//   color: black; /* Silik yazının rengi */
-//   opacity: 0.1; /* Siliklik derecesi - 0 ile 1 arasında değer alabilir */
-// }
-.award-broker-content{
-	.award-broke-text{
+  .award-winning-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img {
+      width: 300px;
+      height: auto;
+      margin: 10px;
+    }
+  }
+	.award-winning-header{
 		text-align: center;
 	}
-	.award-broker-img{
-		display: flex;
-		justify-content: center;
-		img{
-			width: 417px;
-			padding: 20px;
-		}
-	}
 }
+
+

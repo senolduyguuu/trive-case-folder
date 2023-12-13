@@ -1,13 +1,37 @@
 $bordercolor:#DADDDE;
-
+$list-compnent-header:#393939;
+$list-cpmponent-text:#989898;
 .list-container {
+ overflow-y: auto;
  width: 575px;
   border: 1px solid $bordercolor;
   border-radius: 8px; /* Köşe yuvarlaklığı */
+  background: transparent  0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(21px);
+  -webkit-backdrop-filter: blur(21px);
+	/* Küçük ekranlar (mobil) */
+@media only screen and (max-width: 576px) {
+  width: 200px;
+}
+
+/* Mobil ve tabletler */
+@media only screen and (max-width: 768px) {
+  width: 300px;
+	margin: 5px auto;
+}
 	.list-container-header{
 		display: flex;
 	}
 	.list-container-text{
 		padding: 10px;
 	}
+	.list-compnent-header{
+		color: $list-compnent-header;
+		}
+		.list-component-text{
+			color: $list-cpmponent-text;
+		}
 }
+
+.table{--bs-table-bg: none;}

@@ -5,7 +5,7 @@ $thirdbox:#17ADA1;
 
 
 .box-container-inclusive {
-	background-color: $bodycolor;
+	background-color: $bodycolor !important;
   .container {
     .row {
 		  .col-md-4:nth-child(2) .card {

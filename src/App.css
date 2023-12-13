@@ -1,12 +1,30 @@
-.container-wrapper{
-	display: flex;
-	justify-content: center;
-}
-@media screen and (max-width: 480px) {
+	
 	.container-wrapper{
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
+		position: relative;
+		bottom: 4em;	
+		
 	}
-}
+	@media screen and (max-width: 480px) {
+		.container-wrapper{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			bottom: auto;
+		}
+	
+	}
+	@media screen and (max-width: 768px) {
+		.container-wrapper{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	
+	}
+	
+.app-content{
+	background-color: #F7F7F7;
 
+}
